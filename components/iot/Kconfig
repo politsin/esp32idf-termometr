@@ -1,0 +1,8 @@
+menu "iot"
+
+config IOT_FOO
+    bool "foo / bar"
+    default "y"
+    help
+        Some example config
+endmenu

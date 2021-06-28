@@ -1,0 +1,9 @@
+menu "esp32mqtt"
+
+config ESP32_MQTT_COMP_FOO
+    bool "foo / bar"
+    default "y"
+    help
+        Some example config
+
+endmenu
