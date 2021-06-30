@@ -39,7 +39,7 @@ void EspMQTT::setMqtt(string server, string user, string pass) {
   strcpy(this->mqttPass, pass.c_str());
 };
 
-void EspMQTT::setCommonTopics(string registry, string device) {
+void EspMQTT::setCommonTopics(string device, string registry) {
   // Root: /home/[sensor/switch/light]/{name}
   string d = string("$devices/") + device;
   string r = string("$registries/") + registry;

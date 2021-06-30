@@ -76,7 +76,7 @@ void setOta(bool ota);
 // WiFi setters.
 void setWiFi(string ssid, string pass, string host);
 void setMqtt(string server, string user, string pass);
-void setCommonTopics(string root, string name);
+void setCommonTopics(string device, string registry);
 // Mqtt setters.
 void setstringValue(char *name, char *value);
 void addSubsribeTopic(string topic);
